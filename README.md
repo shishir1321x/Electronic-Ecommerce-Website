@@ -86,3 +86,5 @@ unticking `active`, and read messages sent from the contact form. See
 - The code is released under the [MIT License](LICENSE). The photos in `assets/img/` are not covered by it.
 
 This is a demo store: it doesn't take real payments.
+
+https://votarastore.saifulalams814.workers.dev/
