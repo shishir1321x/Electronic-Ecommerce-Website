@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voltara — Electronics, beautifully made</title>
+  <meta name="description" content="Voltara — phones, computers, audio, wearables and more. Free delivery and easy returns." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/pages.css" />
+</head>
+<body>
+  <main>
+    <section class="tile dark reveal tile-side" data-photo="nova-x-pro">
+      <h2>Nova X Pro</h2>
+      <p class="sub">Titanium. Brilliant. Pro.</p>
+      <div class="ctas"><a class="btn" href="product.html?id=nova-x-pro">Learn more</a><a class="btn btn-outline" href="product.html?id=nova-x-pro#buy">Buy</a></div>
+    </section>
+
+    <section class="tile light reveal" data-photo="nova-book-14">
+      <h2>Nova Book 14</h2>
+      <p class="sub">Light. Bright. Full of might.</p>
+      <div class="ctas"><a class="btn" href="product.html?id=nova-book-14">Learn more</a><a class="btn btn-outline" href="product.html?id=nova-book-14#buy">Buy</a></div>
+    </section>
+
+    <section class="tile-grid">
+      <div class="tile half dark reveal" data-photo="aether-max">
+        <h2>Aether Max</h2>
+        <p class="sub">Hear every detail. Hear nothing else.</p>
+        <div class="ctas"><a class="btn" href="product.html?id=aether-max">Learn more</a><a class="btn btn-outline" href="product.html?id=aether-max#buy">Buy</a></div>
+      </div>
+      <div class="tile half light reveal" data-photo="orbit-pad-air">
+        <h2>Orbit Pad Air</h2>
+        <p class="sub">Serious power. Seriously light.</p>
+        <div class="ctas"><a class="btn" href="product.html?id=orbit-pad-air">Learn more</a><a class="btn btn-outline" href="product.html?id=orbit-pad-air#buy">Buy</a></div>
+      </div>
+      <div class="tile half light reveal" data-photo="pulse-buds-pro">
+        <h2>Pulse Buds Pro</h2>
+        <p class="sub">Rebuilt for sound.</p>
+        <div class="ctas"><a class="btn" href="product.html?id=pulse-buds-pro">Learn more</a><a class="btn btn-outline" href="product.html?id=pulse-buds-pro#buy">Buy</a></div>
+      </div>
+      <div class="tile half dark reveal" data-photo="halo-watch-ultra" data-fx="rain">
+        <h2>Halo Watch Ultra</h2>
+        <p class="sub">Next-level adventure.</p>
+        <div class="ctas"><a class="btn" href="product.html?id=halo-watch-ultra">Learn more</a><a class="btn btn-outline" href="product.html?id=halo-watch-ultra#buy">Buy</a></div>
+      </div>
+    </section>
+
+    <section class="tile dark reveal" data-photo="lumen-z7" data-fx="bokeh">
+      <h2>Lumen Z7</h2>
+      <p class="sub">Every frame, a masterpiece.</p>
+      <div class="ctas"><a class="btn" href="product.html?id=lumen-z7">Learn more</a><a class="btn btn-outline" href="product.html?id=lumen-z7#buy">Buy</a></div>
+    </section>
+
+    <section class="highlight" data-fx="aurora">
+      <div class="container">
+        <p class="hl-eyebrow reveal">Nova Book Pro 16</p>
+        <h2 class="hl-title reveal">Pro to the <span class="grad">max.</span></h2>
+        <div class="stats">
+          <div class="reveal"><span>Up to</span><b data-count="24">0</b><em>hours of battery life</em></div>
+          <div class="reveal"><span>Up to</span><b data-count="40">0</b><em>core GPU</em></div>
+          <div class="reveal"><span>Up to</span><b data-count="128">0</b><em>GB unified memory</em></div>
+        </div>
+        <div class="ctas hl-ctas reveal"><a class="btn" href="product.html?id=nova-book-pro-16">Learn more</a><a class="btn btn-outline" href="product.html?id=nova-book-pro-16#buy">Buy</a></div>
+      </div>
+    </section>
+
+    <div class="store-bg" id="store" data-fx="mesh">
+      <section class="container store-head">
+        <h1 class="reveal">Store. <span>The best way to buy the products you love.</span></h1>
+        <div class="specialist reveal">
+          <span class="spec-ico"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 5h16v10H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <div><b>Need shopping help?</b><a href="page.html?p=contact">Ask a Specialist ›</a></div>
+        </div>
+      </section>
+
+      <nav class="cat-row container" id="catRow" aria-label="Shop by category"></nav>
+
+      <section class="shelf">
+        <div class="container shelf-head">
+          <h2>The latest. <span>Take a look at what’s new right now.</span></h2>
+          <div class="arrows"><button class="arrow" data-scroll="latest:-1" aria-label="Previous">‹</button><button class="arrow" data-scroll="latest:1" aria-label="Next">›</button></div>
+        </div>
+        <div class="scroller" id="latest"></div>
+      </section>
+
+      <section class="container products" id="products">
+        <div class="products-head">
+          <h2>All products. <span>Find the one that’s right for you.</span></h2>
+          <div class="toolbar">
+            <div class="chips" id="chips"></div>
+            <select id="sortSelect" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="name">Name</option>
+            </select>
+          </div>
+          <p class="query-note" id="queryNote" hidden></p>
+        </div>
+        <div class="grid" id="grid"></div>
+        <p class="empty" id="empty" hidden>No products found. Try a different search.</p>
+      </section>
+
+      <section class="shelf">
+        <div class="container shelf-head">
+          <h2>The Voltara difference. <span>Even more reasons to shop with us.</span></h2>
+          <div class="arrows"><button class="arrow" data-scroll="diff:-1" aria-label="Previous">‹</button><button class="arrow" data-scroll="diff:1" aria-label="Next">›</button></div>
+        </div>
+        <div class="scroller" id="diff"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.115.0/dist/umd/supabase.js" integrity="sha384-CLZeq1dk8+Uzrs7TVvBUdlFoV5F0DMqgRoeHa8g5wJcuPe5SkVfEvdxB0ZuzlnBQ" crossorigin="anonymous"></script>
+  <script src="assets/config.js"></script>
+  <script src="assets/data.js"></script>
+  <script src="assets/fx.js"></script>
+  <script src="assets/db.js"></script>
+  <script src="assets/core.js"></script>
+  <script src="assets/home.js"></script>
+</body>
+</html>
