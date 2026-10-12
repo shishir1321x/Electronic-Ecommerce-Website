@@ -5,7 +5,7 @@ wearables, cameras, gaming gear and accessories. It's built with plain HTML, CSS
 JavaScript (no build step) and uses a free [Supabase](https://supabase.com) database for
 products, orders and customer accounts.
 
-![Voltara home page](.github/preview.jpg)
+![Voltara home page](https://votarastore.saifulalams814.workers.dev/)
 
 ## Features
 
@@ -87,4 +87,4 @@ unticking `active`, and read messages sent from the contact form. See
 
 This is a demo store: it doesn't take real payments.
 
-https://votarastore.saifulalams814.workers.dev/
+
