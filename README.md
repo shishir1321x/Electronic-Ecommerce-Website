@@ -5,7 +5,7 @@ wearables, cameras, gaming gear and accessories. It's built with plain HTML, CSS
 JavaScript (no build step) and uses a free [Supabase](https://supabase.com) database for
 products, orders and customer accounts.
 
-![Voltara home page](https://votarastore.saifulalams814.workers.dev/)
+Landing page: https://votarastore.saifulalams814.workers.dev/
 
 ## Features
 
